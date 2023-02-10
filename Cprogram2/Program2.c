@@ -11,7 +11,7 @@ int main(void)
         printf("Enter the NFL score: ");
         if (scanf(" %d", &input) == 1)
         {
-            if (input <= 2)
+            if (input < 2)
                 break;
             else
                 football_scores(input);
