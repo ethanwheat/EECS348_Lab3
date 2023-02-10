@@ -4,10 +4,11 @@
 
 int main(void)
 {
+    printf("Enter 0 or 1 to STOP\n");
     while(true)
     {
         int input;
-        printf("Enter a score: ");
+        printf("Enter the NFL score: ");
         if (scanf(" %d", &input) == 1)
         {
             if (input <= 2)
